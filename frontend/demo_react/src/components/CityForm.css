@@ -1,0 +1,49 @@
+/* Main container to center content on the page */
+.city-management-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    overflow-y: auto; 
+  }
+  
+  /* Form panel styling */
+  .form-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  /* Separate container for the grid view */
+  .grid-view-container {
+    max-width: 800px; /* Controls the grid width separately */
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  /* Table styling */
+  .city-grid {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .city-grid th, .city-grid td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .city-grid th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .city-grid tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  

@@ -1,0 +1,21 @@
+{
+  "CityWithValidDetails": {
+    "code": "CT208",
+    "name": "Salzburg",
+    "description": "The capital of Upper Austria and third-largest city in Austria"
+  },
+  "CityWithDuplicateCode": {
+    "code": "CT999",
+    "name": "Villach",
+    "description": "City for testing duplicate code"
+  },
+  "CityToEdit": {
+    "code": "CT203",
+    "name": "Linz",
+    "description": "Updated description for LINZ...",
+    "updatedDescription": "Updated description for LINZ..."
+  },
+  "CityToDelete": {
+    "code": "CT999"
+  }
+}
