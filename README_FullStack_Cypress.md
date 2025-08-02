@@ -76,7 +76,11 @@ After tests run:
 - HTML Report: `cypress/reports/index.html`
 - Screenshots: `cypress/screenshots/`
 - Videos: `cypress/videos/`
-
+- new reports can only b overriden by runnig following commands
+```bash
+npx cypress run
+```
+- Open report from: `cypress/reports/index.html` 
 ---
 
 ## Recommended Folder Structure
